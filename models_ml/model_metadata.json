@@ -1,0 +1,40 @@
+{
+  "label_names": {
+    "0": "Fake",
+    "1": "Real"
+  },
+  "fake_label": 0,
+  "true_label": 1,
+  "text_columns": [
+    "title",
+    "text"
+  ],
+  "preprocessing": {
+    "version": "2026-05-31-source-normalized-v1",
+    "removed_source_markers": [
+      "reuters",
+      "associated press"
+    ]
+  },
+  "dataset": {
+    "fake_path": "C:\\Users\\User\\OneDrive\\Desktop\\FakeNews Backend\\data\\Fake.csv",
+    "true_path": "C:\\Users\\User\\OneDrive\\Desktop\\FakeNews Backend\\data\\True.csv",
+    "label_counts": {
+      "Fake": 23481,
+      "Real": 21417
+    }
+  },
+  "model": {
+    "classes": [
+      0,
+      1
+    ],
+    "vectorizer_vocabulary_size": 250000
+  },
+  "evaluation": {
+    "accuracy": 0.9848552338530067,
+    "precision": 0.9778801843317972,
+    "recall": 0.9906629318394025,
+    "f1": 0.9842300556586271
+  }
+}
